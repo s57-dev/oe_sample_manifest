@@ -1,0 +1,6 @@
+<manifest>
+    <!-- Use Nuuday mirrors instead of github repos -->
+    <remote name="cmf" review="https://github.com/kuscsik" fetch="https://github.com/kuscsik" />
+    <remote name="yocto" fetch="https://git.yoctoproject.org/git" review="" revision="dunfell" />
+    <project  remote="yocto" name="poky" path="openembedded"  />
+</manifest>
