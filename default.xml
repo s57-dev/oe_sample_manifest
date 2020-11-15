@@ -1,6 +1,16 @@
 <manifest>
     <!-- Use Nuuday mirrors instead of github repos -->
-    <remote name="cmf" review="https://github.com/kuscsik" fetch="https://github.com/kuscsik" />
+    <remote name="gh" review="https://github.com/" fetch="https://github.com/" revision="dunfell"/>
     <remote name="yocto" fetch="https://git.yoctoproject.org/git" review="" revision="dunfell" />
-    <project  remote="yocto" name="poky" path="openembedded"  />
+
+    <project remote="yocto" name="poky" path="openembedded"  />
+    <project remote="yocto" name="meta-raspberrypi" path="meta-raspberrypi"/>
+    <project remote="yocto" name="meta-security" path="meta-security"/>
+
+    <project remote="gh" name="openembedded/meta-openembedded" path="meta-openembedded"/>
+
+    <project remote="gh" name="meta-qt5/meta-qt5" path="meta-qt5" revision="dunfell"/>
+    <!--- Distro layer -->
+    <project remote="gh" name="kuscsik/meta-zkres" path="meta-zkres" revision="dunfell"/>
+
 </manifest>
