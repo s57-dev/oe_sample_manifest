@@ -1,7 +1,7 @@
 <manifest>
     <!-- Use Nuuday mirrors instead of github repos -->
-    <remote name="gh" review="https://github.com/" fetch="https://github.com/" revision="dunfell"/>
-    <remote name="yocto" fetch="https://git.yoctoproject.org/git" review="" revision="dunfell" />
+    <remote name="gh" review="https://github.com/" fetch="https://github.com/" revision="nanbield"/>
+    <remote name="yocto" fetch="https://git.yoctoproject.org/git" review="" revision="nanbield" />
 
     <project remote="yocto" name="poky" path="openembedded"  />
     <project remote="yocto" name="meta-raspberrypi" path="meta-raspberrypi"/>
@@ -9,8 +9,8 @@
 
     <project remote="gh" name="openembedded/meta-openembedded" path="meta-openembedded"/>
 
-    <project remote="gh" name="meta-qt5/meta-qt5" path="meta-qt5" revision="dunfell"/>
+    <project remote="gh" name="meta-qt5/meta-qt5" path="meta-qt5" revision="nanbield"/>
     <!--- Distro layer -->
-    <project remote="gh" name="kuscsik/meta-zkres" path="meta-zkres" revision="dunfell"/>
+    <project remote="gh" name="kuscsik/meta-zkres" path="meta-zkres" revision="nanbield"/>
 
 </manifest>
