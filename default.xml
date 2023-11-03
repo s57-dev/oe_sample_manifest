@@ -4,13 +4,11 @@
     <remote name="yocto" fetch="https://git.yoctoproject.org/git" review="" revision="nanbield" />
 
     <project remote="yocto" name="poky" path="openembedded"  />
-    <project remote="yocto" name="meta-raspberrypi" path="meta-raspberrypi"/>
     <project remote="yocto" name="meta-security" path="meta-security"/>
 
     <project remote="gh" name="openembedded/meta-openembedded" path="meta-openembedded"/>
 
-    <project remote="gh" name="meta-qt5/meta-qt5" path="meta-qt5" revision="nanbield"/>
     <!--- Distro layer -->
-    <project remote="gh" name="kuscsik/meta-zkres" path="meta-zkres" revision="nanbield"/>
+    <project remote="gh" name="s57-dev/meta-s57-distro" path="meta-s57-distro" revision="nanbield"/>
 
 </manifest>
