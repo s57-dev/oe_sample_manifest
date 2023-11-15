@@ -6,9 +6,11 @@
     <project remote="yocto" name="poky" path="openembedded"  />
     <project remote="yocto" name="meta-security" path="meta-security"/>
     <project remote="gh" name="openembedded/meta-openembedded" path="meta-openembedded"/>
-    <project remote="gh" name="kuscsik/cmakeSample" path="s57/cmakeSample"/>
+    <project remote="gh" name="kuscsik/cmakeSample" path="s57/cmakeSample" revision="main"/>
+    <project remote="gh" name="fluxcapacitor" path="s57/fluxcapacitor" revision="nanbield"/>
 
     <!--- Distro layer -->
     <project remote="gh" name="s57-dev/meta-s57-distro" path="meta-s57-distro" revision="nanbield"/>
+
 
 </manifest>
